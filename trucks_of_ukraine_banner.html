@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Trucks of Ukraine — банер</title>
+  <style>
+    :root{--accent:#0073c8;--accent-2:#ffd400;--bg:#0f1724;--text:#ffffff}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg); color:var(--text)}
+
+    .hero{display:flex;align-items:center;justify-content:center;gap:40px;padding:40px;max-width:1200px;margin:40px auto}
+    .banner{flex:1;min-width:320px}
+    .banner__img{width:100%;height:auto;border-radius:12px;display:block;box-shadow:0 10px 30px rgba(2,6,23,0.7)}
+
+    .content{flex:1;min-width:300px;color:var(--text)}
+    .eyebrow{font-weight:700;color:var(--accent-2);display:inline-block;margin-bottom:12px}
+    h1{font-size:36px;line-height:1.05;margin:0 0 18px;font-weight:800}
+    .subtitle{font-size:18px;opacity:0.95;margin-bottom:18px}
+
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));padding:20px;border-radius:10px}
+    .section-title{font-weight:700;margin:12px 0}
+    p{margin:8px 0;color:rgba(255,255,255,0.9)}
+    ul{margin:8px 0 16px 20px}
+    li{margin-bottom:6px}
+
+    .cta{display:inline-block;margin-top:16px;padding:12px 18px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;font-weight:700}
+
+    @media (max-width:900px){
+      .hero{flex-direction:column;padding:20px}
+      h1{font-size:28px}
+    }
+  </style>
+</head>
+<body>
+  <main class="hero">
+    <div class="banner">
+      <!-- ЗАМІНИТЬ ШЛЯХ ДО ЗОБРАЖЕННЯ ЗАЛЕЖНО ВІД ВАШОГО СЕРВЕРА -->
+      <img class="banner__img" src="/mnt/data/A_website_banner_image_showcases_%22Trucks_of_Ukrain.png" alt="Trucks of Ukraine banner" />
+    </div>
+
+    <div class="content">
+      <div class="eyebrow">🚛 Trucks of Ukraine</div>
+      <h1>Українська віртуальна транспортна компанія в TruckersMP</h1>
+      <p class="subtitle">Вітаємо у Trucks of Ukraine — команда водіїв, об’єднаних спільною пристрастю до ETS2 та віртуальних перевезень.</p>
+
+      <div class="card">
+        <div>
+          <div class="section-title">🏙️ Хто ми</div>
+          <p>Trucks of Ukraine — це команда водіїв, об’єднаних спільною пристрастю до ETS2 та віртуальних перевезень. Ми створили простір, де кожен може насолоджуватися поїздками, брати участь у конвоях, розвиватися як професійний водій і просто добре проводити час у дружній атмосфері.</p>
+        </div>
+
+        <div>
+          <div class="section-title">🎯 Наша мета</div>
+          <p>Ми прагнемо зробити віртуальні перевезення комфортними, організованими та професійними. Наша мета — створити активну українську спільноту, де панують повага, дисципліна та командний дух.</p>
+        </div>
+
+        <div>
+          <div class="section-title">💙 Наші цінності</div>
+          <ul>
+            <li><strong>Професіоналізм</strong> — дотримуємось правил і стандартів на дорогах TruckersMP.</li>
+            <li><strong>Командна гра</strong> — ми їздимо разом, допомагаємо один одному, розвиваємо компанію.</li>
+            <li><strong>Дружня атмосфера</strong> — повага й гарний настрій у кожному конвої.</li>
+            <li><strong>Активність</strong> — участь у заходах, спільних конвоях і проектах з іншими ВТК.</li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="section-title">🚚 Приєднуйся до нас</div>
+          <p>Якщо ти любиш далекі дороги, вантажівки та українську єдність — Trucks of Ukraine стане твоїм новим домом у світі TruckersMP!</p>
+          <a class="cta" href="https://discord.gg/NkCCHJed" target="_blank" rel="noopener">Приєднатися в Discord</a>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
